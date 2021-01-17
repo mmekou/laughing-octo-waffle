@@ -1,0 +1,17 @@
+Django==3.1
+psycopg2-binary==2.8.6
+wheel
+Pillow==7.1
+gunicorn
+python-decouple
+dj-database-url
+whitenoise
+django-cors-headers==3.0.1
+django-js-asset==1.2.2
+django-templated-mail==1.1.1
+djangorestframework==3.12
+djangorestframework-jsonapi
+djoser==1.7.0
+inflection==0.3.1
+permission==0.4.1
+six==1.12.0
