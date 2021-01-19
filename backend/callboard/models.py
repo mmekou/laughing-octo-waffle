@@ -11,6 +11,7 @@ class Category(MPTTModel):
         'self',
         on_delete=models.CASCADE,
         related_name='children',
+        verbose_name='Родитель',
         null=True,
         blank=True
     )
@@ -21,6 +22,7 @@ class Category(MPTTModel):
 
     class MPTTMeta:
         order_insertion_by = ['name']
+        verbose_name = 'Категория'
 
 
 class FilterAdvert(models.Model):
